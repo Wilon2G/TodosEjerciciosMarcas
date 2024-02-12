@@ -1,0 +1,51 @@
+
+
+
+
+    
+
+div{
+    margin: 10px;
+    padding: 100px;
+    text-align: center; 
+}
+.tabla1 a:hover{
+background-color: aqua;
+}
+body{
+    background-color: lightgreen;
+}
+.tabla1 table{
+    background-color: lightyellow;
+    border: black solid 3px;
+    border-collapse:collapse ;
+}
+.tabla1 caption{
+    background-color: lightgoldenrodyellow;
+}
+tr.tabla1{
+    
+    background-color: rgb(238, 148, 208);
+    
+}
+
+.tabla2{
+background-color: aliceblue;
+padding: 4px;
+}
+
+.tabla2 tbody{
+background-color: rgb(200, 161, 236);
+
+}
+
+.tabla2 thead,tfoot{
+background-color: aquamarine;
+
+}
+
+.tabla2 th,td{
+border: 3px solid;
+
+}
+

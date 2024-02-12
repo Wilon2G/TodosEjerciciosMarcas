@@ -1,0 +1,374 @@
+/* Your Stylesheet */
+
+/* All your edits should go here */
+
+#display-01 div {
+    float: left;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+#display-02 span {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+
+}
+
+#display-03 div {
+    border: 1px solid green;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+#display-04 :first-child {
+    display: none;
+}
+
+#display-05 a {
+    display: flex;
+    width: 50%;
+    background-color: lightgray;
+    margin: auto;
+    padding: 20px;
+}
+
+#boxmodel-01 div {
+    display: flex;
+    width: 50%;
+    border: 15px solid black;
+    margin: auto;
+    padding: 35px;
+}
+
+#boxmodel-02 div {
+    display: flex;
+    width: 50%;
+    border: 15px solid black;
+    margin: auto;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+#float-01 img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: auto;
+    margin-top: 20px;
+}
+
+#float-02 img {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: auto;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+
+
+#float-03 img {
+    float: left;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+
+#float-03 p.clear {
+    clear: left;
+}
+
+
+
+#float-04 div img {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#float-04 div {
+    background-color: lightblue;
+    display: flow-root;
+}
+
+
+
+#float-05 {
+    overflow: hidden;
+}
+
+#float-05 p {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+#float-05 p:last-child {
+    margin-right: 0;
+}
+
+#float-05 p:nth-child(odd) {
+    border-right: 1px solid #030303;
+    padding-right: 10px;
+}
+
+
+
+
+
+#float-06>div>p {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+#float-06>div>p:last-child {
+    margin-right: 0;
+}
+
+#float-06>div>p:nth-child(odd) {
+    border-right: 1px solid #030303;
+    padding-right: 10px;
+}
+
+#float-06>div+p {
+    clear: both;
+}
+
+
+
+
+#position-01 div {
+    height: 80px;
+    width: 80px;
+    background-color: #d72e0d;
+}
+
+
+#position-01 div:nth-child(even) {
+
+    position: relative;
+    left: 80px;
+}
+
+
+
+
+
+
+#position-02 div {
+    border: 1px solid darkgray;
+}
+
+#position-02 span {
+    position: absolute;
+}
+
+
+#position-02 div span:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+#position-02 div span:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+#position-02 div span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+
+#position-02 div span:nth-child(4) {
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#position-03 div {
+    border: 1px solid darkgray;
+    height: 100px;
+    position: relative;
+}
+
+
+#position-03 span {
+    position: absolute;
+}
+
+
+#position-03 div span:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+#position-03 div span:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+#position-03 div span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+
+#position-03 div span:nth-child(4) {
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+#position-04 {
+    position: unset;
+
+}
+
+#position-04 div {
+    position: absolute;
+    top: 0;
+}
+
+
+#position-05 div.outer-box:nth-child(1) {
+    background-color: rgb(204, 204, 204);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4rem;
+    width: 4rem;
+}
+
+#position-05 div.outer-box:nth-child(1)>div {
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 1rem;
+    width: 1rem;
+}
+
+#position-05 div.outer-box+div.outer-box {
+    background-color: rgb(204, 204, 204);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 4rem;
+    width: 4rem;
+}
+
+#position-05 div.outer-box+div.outer-box>div {
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    right: 35%;
+    top: 35%;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+
+#position-06 div {
+    background-color: lavender;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+#position-07 {
+    position: unset;
+}
+
+#position-07 a {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #030303;
+    color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#position-07 a:hover {
+    background-color: purple;
+}
+
+
+
+/* layooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooout */
+
+
+#layout aside {
+    position: absolute;
+    top: 200px;
+    bottom: 200px;
+    right: -80px;
+    width: 400px;
+    padding: 0 20px;
+    border-top: 5px solid #f95b34;
+    background: #fa8366;
+}
+  
+#layout aside p {
+    display: block;
+}
+  
+#layout main p {
+    width: 70%;
+}
+  
+#layout footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #f36283;
+}
+
+#layout nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 60px;
+    border-right: 1px solid #91ab3b;
+    float: left;
+    
+}
+
+#layout nav {
+    /* float: inline-start; 
+    width: 100%; */
+    height: 60px;
+    background: #b7d84b;
+} 
+
+#layout nav a:hover {
+    background: #91ab3b;
+}
+
+#layout {
+    padding-top: 0;
+    background-color: lightcyan;
+}
+
+#layout main{
+    background-color: white;
+}
+

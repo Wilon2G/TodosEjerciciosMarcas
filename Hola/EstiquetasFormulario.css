@@ -1,0 +1,15 @@
+body{
+text-align: center;
+
+}
+fieldset{
+padding: 50px;
+
+}
+form{
+padding: 30px;
+background-color: aquamarine;
+}
+input{
+    background-color: blueviolet;
+}

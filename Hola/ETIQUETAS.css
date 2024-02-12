@@ -1,0 +1,86 @@
+div {
+    border: red 2px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+div :first-child {
+    color: aqua;
+
+
+}
+
+a:link{
+    background-color:lightsalmon;
+}
+
+div img:hover{
+
+    width: 1000px;
+
+}
+
+footer:active{
+text-align: center;
+
+}
+
+
+
+
+a:visited{
+    background-color: lightgreen;
+}
+
+p.algo {
+    color: rgb(252, 7, 7);
+}
+
+.algo {
+    text-align: center;
+    width: 1400px;
+    height: 400px;
+}
+
+.algo2 {
+
+    text-align: center;
+    width: 1000px;
+}
+
+h1.algo {
+    color: blue;
+}
+
+
+    body { 
+background-image: url(https://store.bananacomputer.com/cmsAdmin/uploads/o_1ebm1360a1548187aubidpa1gbaa.jpg);
+background-attachment: fixed;
+background-size: cover;
+}
+
+hr {
+height: 20px;
+background-color: rebeccapurple;
+border-color: yellow;
+margin-left: 10%;
+margin-right: 75%;
+}
+
+p{
+    border: silver 75px solid;
+  border-image-source: url("Media/Fotos/borde3.png");
+  border-image-slice: 70 ;
+  border-image-repeat: repeat;
+  text-align: justify;
+  
+}
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+}
+td{
+    border: 2px solid black;
+}

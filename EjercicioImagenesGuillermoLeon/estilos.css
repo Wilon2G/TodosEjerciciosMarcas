@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita que aparezca la barra de desplazamiento vertical por defecto */
+}
+img{
+    width: 350px;
+
+}
+
+#f1{
+
+}
+#f2{
+    float: right;
+}
+
+.p2{
+    clear: left;
+    border: 10px solid black;
+    /* overflow: auto; */
+}
+.p1{
+    border: 10px solid black;
+    display: flex;
+    /* overflow: auto; */
+}
+
+div{
+    width: 70%;
+    margin: auto;
+}
+body{
+    background-color: rgb(170, 238, 170);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
